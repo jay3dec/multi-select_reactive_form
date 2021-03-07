@@ -1,0 +1,11 @@
+input[type="checkbox"]{
+    color: red;
+}
+
+.drop-container{
+    margin: 100px;
+}
+
+.action{
+    margin-top: 10px;
+}
