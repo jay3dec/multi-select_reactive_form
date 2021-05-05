@@ -54,5 +54,15 @@ export class AppComponent implements OnInit {
     ];
   }
 
+  setDefaultSelection(){
+    let item = this.getData()[0];
+    this.form.patchValue({
+      grocery : [{
+        item_id : item['item_id'],
+        item_text : item['item_text']
+      }]  
+    })
+  }
+
 
 }
